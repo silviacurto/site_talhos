@@ -1,0 +1,177 @@
+html {
+    font-size: 62.5%;
+}
+
+#wrapper {
+    width: 952px;
+    margin: 0 auto;
+    padding-top: 18px;
+}
+
+body {
+    background: white;
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    position: relative;
+    cursor: auto;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#header {
+    margin-bottom: 25px;
+    width: 952px;
+}
+
+#header .logo {
+    margin-left: 15px;
+    float: left;
+}
+
+#header .header_direita {
+    float: right;
+    margin-top: 35px;
+    color: #575757;
+}
+
+#header .header_direita img {
+    float: left;
+}
+
+#header .numero_telefone {
+    float: left;
+    margin-top: 7px;
+    padding-left: 8px;
+    font-size: 1.5rem;
+}
+
+#header .horario {
+    float: left;
+    font-size: 0.9rem;
+    margin-left: 20px;
+}
+
+#menu {
+    margin-top: 10px;
+    clear: both;
+}
+
+#menu ul {
+    margin: 0;
+    background-color: #860000;
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+    padding: 13px;
+}
+
+#menu ul li:hover {
+    background-color: rgba(182, 86, 78, 0.747);
+}
+
+#menu ul li.active {
+    background-color: #b45950;
+}
+
+#main div img {
+    width: 100%;
+}
+
+.carrocel {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.carrocel div img {
+    max-width: 600px;
+}
+
+#menu ul li a {
+    padding: 10px 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+    padding: 7px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: 1px solid #636363;
+}
+
+input[type="text"],
+input[type="date"] {
+    height: 15px;
+}
+
+select {
+    height: 31px;
+}
+
+input[type="text"]:focus {
+    background: #e3e3e3;
+}
+
+textarea {
+    resize: none;
+}
+
+.receita {
+    display: none;
+}
+
+#mapa1,
+#mapa2,
+#mapa3 {
+    text-align: center;
+}
+
+.two-col {
+    overflow: hidden;
+}
+
+#main .two-col .col1,
+#main .two-col .col2 {
+    width: 50%;
+}
+
+#main .two-col .col1 {
+    float: left;
+}
+
+#main .two-col .col2 {
+    float: right;
+}
+
+#recipe_list li {
+    list-style-type: none;
+    background-color: #860000;
+    width: 30%;
+    margin: 0.5rem 0;
+}
+
+#recipe_list a {
+    color: #e3e3e3;
+    padding: 5px;
+}
+
+#footer {
+    height: 100px;
+}
